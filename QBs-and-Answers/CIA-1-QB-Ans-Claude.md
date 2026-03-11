@@ -92,10 +92,13 @@ $$v_o = a_1 v_i + a_2 v_i^2$$
 **Block Diagram:**
 
 ```
-m(t) ──┐
-        ├──[Σ]──── v_i ──[Square-Law Device]──[BPF @ f_c]──→ s_AM(t)
-c(t) ──┘                  v_o = a₁vᵢ + a₂vᵢ²
-= Ac·cos(ωct)
+m(t)                                                u(t)
+───────>(+)───────────>[Non linear]────>[Band Pass]─────> desired
+         |             [device    ]     [Filter   ]       modulating
+message  |                      ^                         signal
+signal   | Ac.cos(2.π.fc.t)     |
+         |                   PN Junction Diode
+        (~) carrier
 ```
 
 **Derivation:**
