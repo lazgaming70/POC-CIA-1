@@ -4,24 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "f9697474cd31033a",
+        "id": "86211185accb94ef",
         "type": "tabs",
         "children": [
           {
-            "id": "614f291fd70e108a",
+            "id": "c1d43df5cd0692d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "QBs-and-Answers/CIA-1-QB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "CIA-1-QB"
+            }
+          },
+          {
+            "id": "6d1d670d82b52ccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "QBs-and-Answers/CIA-1-QB-Ans.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CIA-1-QB-Ans"
+            }
+          },
+          {
+            "id": "67fbebee27e6a382",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "QBs-and-Answers/CIA-1-QB-original.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CIA-1-QB-original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,8 +212,12 @@
   },
   "active": "bc9a3ea635d772c8",
   "lastOpenFiles": [
+    "QBs-and-Answers/CIA-1-QB.md",
+    "QBs-and-Answers/CIA-1-QB-Ans.md",
+    "QBs-and-Answers/CIA-1-QB-formatted.pdf",
+    "QBs-and-Answers/CIA-1-QB-original.pdf",
+    "pcs-assignment-1.pdf",
     "README.md",
-    "Untitled.md",
     "QBs-and-Answers"
   ]
 }
