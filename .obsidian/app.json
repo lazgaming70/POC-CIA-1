@@ -1,5 +1,6 @@
 {
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "useTab": false
 }
